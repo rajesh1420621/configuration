@@ -6,8 +6,8 @@
 app:
   datasource:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/hello
-    username: lms
-    password: lms123
+    username: root
+    password: password
     configuration:
       max-pool-size: 50
 server:
