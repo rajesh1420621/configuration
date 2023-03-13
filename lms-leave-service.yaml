@@ -10,5 +10,9 @@ app:
     password: lms123
     configuration:
       max-pool-size: 50
+   jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
 server:
   port: 8000
